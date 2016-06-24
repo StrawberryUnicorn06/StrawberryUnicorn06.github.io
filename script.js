@@ -5,6 +5,10 @@ $(document).ready(function(){
   });
   $(".bigImage").click(function(event){
     event.preventDefault();
-    $(".bigImage").animate({"width":"1000px"})
+    $(".bigImage").animate({"width":"1000px"});
   });
+  $(".JohnIsFat").click(function(event){
+      event.preventDefault();
+    $(".JohnIsFat").animate({"width":"3000px"});
+});
 });
